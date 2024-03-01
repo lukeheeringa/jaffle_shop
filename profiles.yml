@@ -1,0 +1,20 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: lheeringa
+      pass: ''
+      port: 5432
+      dbname: jaffle_shop
+      schema: dbt_lheeringa
+      threads: 1
+    prod:
+      type: redshift
+      host: redshift-general.civis.orgs.civis.io
+      port: 5432
+      user: lheeringa
+      pass: "{{ env_var('CIVIS_DB_PASSWORD') }}"
+      dbname: dev
+      schema: scratch

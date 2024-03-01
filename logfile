@@ -1,0 +1,18 @@
+2024-03-01 11:15:46.143 EST [22893] LOG:  starting PostgreSQL 14.11 (Homebrew) on x86_64-apple-darwin22.6.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2024-03-01 11:15:46.145 EST [22893] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-03-01 11:15:46.145 EST [22893] LOG:  listening on IPv6 address "::1", port 5432
+2024-03-01 11:15:46.146 EST [22893] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-03-01 11:15:46.151 EST [22894] LOG:  database system was shut down at 2024-03-01 11:15:30 EST
+2024-03-01 11:15:46.156 EST [22893] LOG:  database system is ready to accept connections
+2024-03-01 11:17:42.714 EST [23151] ERROR:  syntax error at or near "user" at character 36
+2024-03-01 11:17:42.714 EST [23151] STATEMENT:  create schema dbt_lheeringa
+	create user lheeringa;
+2024-03-01 11:17:59.691 EST [23151] ERROR:  role "lheeringa" already exists
+2024-03-01 11:17:59.691 EST [23151] STATEMENT:  create user lheeringa;
+2024-03-01 11:26:30.775 EST [26653] WARNING:  there is already a transaction in progress
+2024-03-01 11:26:30.804 EST [26654] WARNING:  there is already a transaction in progress
+2024-03-01 11:26:30.814 EST [26654] WARNING:  there is already a transaction in progress
+2024-03-01 11:26:30.886 EST [26655] WARNING:  there is already a transaction in progress
+2024-03-01 11:26:31.069 EST [26656] WARNING:  there is already a transaction in progress
+2024-03-01 11:26:31.241 EST [26659] WARNING:  there is already a transaction in progress
+2024-03-01 11:26:31.412 EST [26661] WARNING:  there is already a transaction in progress
